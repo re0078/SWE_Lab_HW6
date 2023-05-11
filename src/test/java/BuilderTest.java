@@ -1,12 +1,11 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.builderpattern.ShoppingOrderBuilder;
 import org.example.builderpattern.ShoppingOrder;
 
 public class BuilderTest {
     @Test
     public void testBuildShoppingOrder() {
-        ShoppingOrderBuilder builder = new ShoppingOrderBuilder();
+        ShoppingOrder.ShoppingOrderBuilder builder = new ShoppingOrder.ShoppingOrderBuilder();
         ShoppingOrder order = builder.setCustomerName("Reza Abdz")
                 .addItem("Shirt", 2)
                 .addItem("Pants", 1)
