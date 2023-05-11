@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.example.prototypepattern.Cricle;
+import org.example.prototypepattern.Circle;
 
 public class PrototypeTest {
     @Test
